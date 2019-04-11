@@ -9,7 +9,7 @@ class Location:
     def __eq__(self, other):
         return (self.name == other.name and self.lat == other.lat and self.lon == other.lon)
     def __repr_(self):
-        return (self.name)
+        return "Location('+self.name+', str(self.lat), '+str(self.lon)+')"  #Don't know how to redefine repr
 
 # ADD BOILERPLATE HERE (__eq__ and __repr__ functions)
 
