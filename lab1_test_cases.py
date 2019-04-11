@@ -39,24 +39,53 @@ class TestLab1(unittest.TestCase):
         self.assertEqual(max_list_iter(tlist), 1.3)
         tlist = [1.3,1.1,1.2]
         self.assertEqual(max_list_iter(tlist), 1.3)
+    def test_max_list_iter_negative(self):                  #if all negative values
+        tlist = [-1,-2,-3]
+        self.assertEqual(max_list_iter(tlist), -1)
+        tlist = [-2,-1,-3]
+        self.assertEqual(max_list_iter(tlist), -1)
+        tlist = [-2,-3,-1]
+        self.assertEqual(max_list_iter(tlist), -1)
 
 
 
 
     def test_reverse_rec(self):
-        #self.assertEqual(reverse_rec([]), ?)
-        self.assertEqual(reverse_rec([1]), [1])
-        self.assertEqual(reverse_rec([1,2,3]),[3,2,1])
+        #self.assertEqual(reverse_rec([]), ?)                               #Don't know how to check ValueError
+        self.assertEqual(reverse_rec([1]), [1])                             #if only one item
+        self.assertEqual(reverse_rec([1,2,3]),[3,2,1])                      #reverse normal
+        self.assertEqual(reverse_rec([-1,-2,-3]), [-3,-2,-1])               #reverse negatives
+        self.assertEqual(reverse_rec([1.1,1.2,1.3]), [1.3,1.2,1.1])         #reverse floats
 
 
 
 
 
-    def test_bin_search(self):
+    def test_bin_search_first_try(self):                                    #target on first try
         list_val =[0,1,2,3,4,7,8,9,10]
         low = 0
         high = len(list_val)-1
         self.assertEqual(bin_search(4, 0, len(list_val)-1, list_val), 4 )
+    def test_bin_search_larger(self):                                       #target exists and larger
+        list_val = [0, 1, 2, 3, 4, 7, 8, 9, 10]
+        low = 0
+        high = len(list_val) - 1
+        self.assertEqual(bin_search(8, 0, len(list_val) - 1, list_val), 8)
+    def test_bin_search_smaller(self):                                      #target exists and smaller
+        list_val = [0, 1, 2, 3, 4, 7, 8, 9, 10]
+        low = 0
+        high = len(list_val) - 1
+        self.assertEqual(bin_search(2, 0, len(list_val) - 1, list_val), 2)
+    def test_bin_search_too_large(self):                                    #target not found, too big
+        list_val = [0, 1, 2, 3, 4, 7, 8, 9, 10]
+        low = 0
+        high = len(list_val) - 1
+        self.assertEqual(bin_search(11, 0, len(list_val) - 1, list_val), None)
+    def test_bin_search_too_small(self):                                    #target not found, too small
+        list_val = [0, 1, 2, 3, 4, 7, 8, 9, 10]
+        low = 0
+        high = len(list_val) - 1
+        self.assertEqual(bin_search(-1, 0, len(list_val) - 1, list_val), None)
 
 if __name__ == "__main__":
         unittest.main()

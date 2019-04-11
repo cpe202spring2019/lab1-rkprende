@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29dd31e5-d440-42f3-8695-b9dd232966bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1_test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1_test_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.py" beforeDir="false" afterPath="$PROJECT_DIR$/location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/location_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+            <state relative-caret-position="867">
+              <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -67,9 +63,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lab1.py" />
-        <option value="$PROJECT_DIR$/lab1_test_cases.py" />
         <option value="$PROJECT_DIR$/location.py" />
         <option value="$PROJECT_DIR$/location_tests.py" />
+        <option value="$PROJECT_DIR$/lab1_test_cases.py" />
       </list>
     </option>
   </component>
@@ -83,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="627" />
     <option name="y" value="231" />
     <option name="width" value="1542" />
@@ -125,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for location_tests.TestLab1.test_eq">
+  <component name="RunManager" selected="Python tests.Unittests in lab1_test_cases.py">
     <configuration name="location" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,20 +141,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="lab1-rkprende" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_max_list_iter&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter_floats" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -189,6 +171,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in lab1_test_cases.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="lab1-rkprende" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab1_test_cases.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in location_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in lab1_test_cases.py" />
         <item itemvalue="Python tests.Unittests for location_tests.TestLab1.test_eq" />
         <item itemvalue="Python tests.Unittests in location_tests.py" />
         <item itemvalue="Python.location" />
         <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_max_list_iter_floats" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_max_list_iter" />
       </list>
     </recent_temporary>
   </component>
@@ -227,9 +223,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter - 2019.04.10 at 11h 54m 13s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter - 2019.04.10 at 11h 56m 38s.xml">
       <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter" configurationId="tests" />
     </history-entry>
@@ -257,6 +250,9 @@
     <history-entry file="Unittests_for_location_tests_TestLab1_test_eq - 2019.04.10 at 23h 31m 53s.xml">
       <configuration name="Unittests for location_tests.TestLab1.test_eq" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.10 at 23h 53m 19s.xml">
+      <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +265,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21712744" />
@@ -317,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+        <state relative-caret-position="867">
+          <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
