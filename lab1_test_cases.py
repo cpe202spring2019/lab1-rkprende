@@ -4,11 +4,11 @@ from lab1 import *
  # A few test cases.  Add more!!!
 class TestLab1(unittest.TestCase):
 
-    def test_max_list_iter_exception(self):                           # used to check for exception
+    def test_max_list_iter_exception(self):                 # used to check for exception
         tlist = None
         with self.assertRaises(ValueError):
             max_list_iter(tlist)
-    def test_max_list_iter_empty(self):                           #returns None is empty list
+    def test_max_list_iter_empty(self):                     #returns None is empty list
         tlist = []
         self.assertEqual(max_list_iter(tlist), None)
     def test_max_list_iter_all_positions(self):             #works if max is in any part of list
@@ -56,14 +56,19 @@ class TestLab1(unittest.TestCase):
         tlist = None
         with self.assertRaises(ValueError):
             reverse_rec(tlist)
-    def test_reverse_rec_empty(self):
+    def test_reverse_rec_empty(self):                               # if list is empty
         tlist = []
-        self.assertEqual(reverse_rec(tlist), None)                  # don't think I need this one
-    def test_reverse_rec(self):
-        self.assertEqual(reverse_rec([1]), [1])                             #if only one item
-        self.assertEqual(reverse_rec([1,2,3]),[3,2,1])                      #reverse normal
-        self.assertEqual(reverse_rec([-1,-2,-3]), [-3,-2,-1])               #reverse negatives
-        self.assertEqual(reverse_rec([1.1,1.2,1.3]), [1.3,1.2,1.1])         #reverse floats
+        self.assertEqual(reverse_rec(tlist), tlist)
+    def test_reverse_rec_one(self):                                 # if list only has one item
+        tlist = [2]
+        self.assertEqual(reverse_rec(tlist), [2])
+        self.assertEqual(reverse_rec([1]), [1])
+    def test_reverse_rec_normal(self):                              #reverse normal
+        self.assertEqual(reverse_rec([1,2,3]),[3,2,1])
+    def test_reverse_rec_negative(self):                            #reverse negatives
+        self.assertEqual(reverse_rec([-1,-2,-3]), [-3,-2,-1])
+    def test_reverse_rec_float(self):                               #reverse floats
+        self.assertEqual(reverse_rec([1.1,1.2,1.3]), [1.3,1.2,1.1])
 
 
 
@@ -72,7 +77,7 @@ class TestLab1(unittest.TestCase):
         list_val = []
         low = 0
         high = len(list_val)-1
-        self.asserEqual(bin_search(2, 0, len(list_val)-1, list_val), None)
+        self.assertEqual(bin_search(2, 0, len(list_val)-1, list_val), None)
     def test_bin_search_first_try(self):                                    #target on first try
         list_val =[0,1,2,3,4,7,8,9,10]
         low = 0
