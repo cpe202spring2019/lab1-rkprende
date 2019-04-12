@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29dd31e5-d440-42f3-8695-b9dd232966bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1_test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1_test_cases.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/location.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="129">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/location_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="85">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="323">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -45,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
+            <state relative-caret-position="306">
+              <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,9 +63,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab1.py" />
         <option value="$PROJECT_DIR$/location.py" />
         <option value="$PROJECT_DIR$/location_tests.py" />
+        <option value="$PROJECT_DIR$/lab1.py" />
         <option value="$PROJECT_DIR$/lab1_test_cases.py" />
       </list>
     </option>
@@ -79,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="627" />
     <option name="y" value="231" />
     <option name="width" value="1542" />
@@ -121,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in lab1_test_cases.py">
+  <component name="RunManager" selected="Python tests.Unittests for lab1_test_cases.TestLab1.test_max_list_iter_negative">
     <configuration name="location" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter_floats" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter_negative" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +154,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_max_list_iter_floats&quot;" />
+      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_max_list_iter_negative&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -201,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_max_list_iter_negative" />
         <item itemvalue="Python tests.Unittests in lab1_test_cases.py" />
-        <item itemvalue="Python tests.Unittests for location_tests.TestLab1.test_eq" />
         <item itemvalue="Python tests.Unittests in location_tests.py" />
+        <item itemvalue="Python tests.Unittests for location_tests.TestLab1.test_eq" />
         <item itemvalue="Python.location" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_max_list_iter_floats" />
       </list>
     </recent_temporary>
   </component>
@@ -223,24 +224,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter - 2019.04.10 at 11h 56m 38s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter - 2019.04.10 at 12h 52m 44s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_location_tests_py - 2019.04.10 at 21h 29m 55s.xml">
-      <configuration name="Unittests in location_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_location_tests_py - 2019.04.10 at 21h 30m 57s.xml">
-      <configuration name="Unittests in location_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_location_tests_py - 2019.04.10 at 21h 42m 19s.xml">
-      <configuration name="Unittests in location_tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter_floats - 2019.04.10 at 23h 16m 29s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter_floats" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_location_tests_py - 2019.04.10 at 23h 30m 36s.xml">
       <configuration name="Unittests in location_tests.py" configurationId="tests" />
     </history-entry>
@@ -252,6 +235,24 @@
     </history-entry>
     <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.10 at 23h 53m 19s.xml">
       <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.10 at 23h 59m 26s.xml">
+      <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.11 at 00h 00m 33s.xml">
+      <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_location_tests_py - 2019.04.11 at 00h 01m 40s.xml">
+      <configuration name="Unittests in location_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.11 at 17h 50m 34s.xml">
+      <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.11 at 18h 44m 55s.xml">
+      <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_max_list_iter_negative - 2019.04.11 at 18h 56m 00s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_max_list_iter_negative" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -265,6 +266,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21712744" />
@@ -286,34 +288,49 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/location.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/location_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="49" lean-forward="true" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/location.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_test_cases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
+        <state relative-caret-position="306">
+          <caret line="60" column="97" selection-start-line="60" selection-start-column="97" selection-end-line="60" selection-end-column="97" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
