@@ -63,12 +63,12 @@ class TestLab1(unittest.TestCase):
         tlist = [2]
         self.assertEqual(reverse_rec(tlist), [2])
         self.assertEqual(reverse_rec([1]), [1])
-    def test_reverse_rec_normal(self):                              #reverse normal
-        self.assertEqual(reverse_rec([1,2,3]),[3,2,1])
-    def test_reverse_rec_negative(self):                            #reverse negatives
-        self.assertEqual(reverse_rec([-1,-2,-3]), [-3,-2,-1])
-    def test_reverse_rec_float(self):                               #reverse floats
-        self.assertEqual(reverse_rec([1.1,1.2,1.3]), [1.3,1.2,1.1])
+#    def test_reverse_rec_normal(self):                              #reverse normal
+#       self.assertEqual(reverse_rec([1,2,3]),[3,2,1])
+#   def test_reverse_rec_negative(self):                            #reverse negatives
+#       self.assertEqual(reverse_rec([-1,-2,-3]), [-3,-2,-1])
+#   def test_reverse_rec_float(self):                               #reverse floats
+#       self.assertEqual(reverse_rec([1.1,1.2,1.3]), [1.3,1.2,1.1])
 
 
 

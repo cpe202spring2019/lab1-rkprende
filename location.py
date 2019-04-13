@@ -9,7 +9,7 @@ class Location:
     def __eq__(self, other):
         return (self.name == other.name and self.lat == other.lat and self.lon == other.lon)
     def __repr_(self):
-        return "Location('+self.name+', str(self.lat), '+str(self.lon)+')"  #Don't know how to redefine repr
+        return "Location(%d,%d,%d)" % (self.name, self.lat, self.lon)  #Don't know how to redefine repr
 
 def main():
     loc1 = Location("SLO", 35.3, -120.7)
