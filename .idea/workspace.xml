@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29dd31e5-d440-42f3-8695-b9dd232966bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1_test_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1_test_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.py" beforeDir="false" afterPath="$PROJECT_DIR$/location.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/location_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/location_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/location.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="204">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
@@ -28,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/location_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+            <state relative-caret-position="289">
+              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -40,17 +37,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="469">
+              <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -66,10 +63,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab1.py" />
         <option value="$PROJECT_DIR$/lab1_test_cases.py" />
-        <option value="$PROJECT_DIR$/location_tests.py" />
         <option value="$PROJECT_DIR$/location.py" />
+        <option value="$PROJECT_DIR$/lab1.py" />
+        <option value="$PROJECT_DIR$/location_tests.py" />
       </list>
     </option>
   </component>
@@ -125,8 +122,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in lab1_test_cases.py">
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_larger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for location_tests.TestLab1.test_repr">
+    <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +133,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_bin_search_larger&quot;" />
+      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_reverse_rec_normal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_smaller" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,11 +147,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_bin_search_smaller&quot;" />
+      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_reverse_rec_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_too_large" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for location_tests.TestLab1.test_eq" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +161,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_bin_search_too_large&quot;" />
+      <option name="_new_target" value="&quot;location_tests.TestLab1.test_eq&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_too_small" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for location_tests.TestLab1.test_repr" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="lab1-rkprende" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;lab1_test_cases.TestLab1.test_bin_search_too_small&quot;" />
+      <option name="_new_target" value="&quot;location_tests.TestLab1.test_repr&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -198,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for location_tests.TestLab1.test_repr" />
+        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" />
+        <item itemvalue="Python tests.Unittests for location_tests.TestLab1.test_eq" />
+        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_reverse_rec_one" />
         <item itemvalue="Python tests.Unittests in lab1_test_cases.py" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_bin_search_too_large" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_bin_search_too_small" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_bin_search_smaller" />
-        <item itemvalue="Python tests.Unittests for lab1_test_cases.TestLab1.test_bin_search_larger" />
       </list>
     </recent_temporary>
   </component>
@@ -220,35 +217,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_one - 2019.04.12 at 10h 32m 50s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_one" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_empty - 2019.04.12 at 10h 34m 05s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_empty" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_empty - 2019.04.12 at 10h 34m 30s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_empty" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_first_try - 2019.04.12 at 10h 34m 36s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_first_try" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_larger - 2019.04.12 at 10h 34m 40s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_larger" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_smaller - 2019.04.12 at 10h 34m 45s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_smaller" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_too_large - 2019.04.12 at 10h 34m 49s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_too_large" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_too_small - 2019.04.12 at 10h 34m 53s.xml">
-      <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_too_small" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_bin_search_too_large - 2019.04.12 at 10h 34m 56s.xml">
       <configuration name="Unittests for lab1_test_cases.TestLab1.test_bin_search_too_large" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_lab1_test_cases_py - 2019.04.12 at 10h 35m 02s.xml">
       <configuration name="Unittests in lab1_test_cases.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_normal - 2019.04.12 at 18h 40m 01s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_normal - 2019.04.12 at 18h 42m 08s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_normal - 2019.04.12 at 18h 46m 50s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_one - 2019.04.12 at 18h 48m 55s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_one" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_normal - 2019.04.12 at 18h 48m 58s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_location_tests_TestLab1_test_eq - 2019.04.12 at 19h 49m 52s.xml">
+      <configuration name="Unittests for location_tests.TestLab1.test_eq" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lab1_test_cases_TestLab1_test_reverse_rec_normal - 2019.04.12 at 19h 50m 54s.xml">
+      <configuration name="Unittests for lab1_test_cases.TestLab1.test_reverse_rec_normal" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_location_tests_TestLab1_test_repr - 2019.04.12 at 19h 51m 11s.xml">
+      <configuration name="Unittests for location_tests.TestLab1.test_repr" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -299,13 +296,6 @@
         <state relative-caret-position="-92" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.PyCharmCE2019.1/system/python_stubs/-850085918/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -313,30 +303,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/location.py">
+    <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="435">
+          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/location_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="70" lean-forward="true" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1_test_cases.py">
+    <entry file="file://$PROJECT_DIR$/location.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
